@@ -1,5 +1,5 @@
 function getFullName(contact) {
-  const names = contact.names;
+  const names = contact;
   return `${names.first} ${names.surname}`;
 }
 
